@@ -176,3 +176,84 @@ a:hover {
 .cta-button:hover {
   background-color: #2563eb;
 }
+
+/* Mobile adjustments */
+@media only screen and (max-width: 768px) {
+  /* Header adjustments */
+  .logo-left {
+    top: 10%;
+    left: 1rem;
+    transform: translateY(0);
+  }
+
+  .site-title h1 {
+    font-size: 2rem;
+  }
+
+  .site-title p {
+    font-size: 1rem;
+  }
+
+  /* Navigation Bar */
+  .main-nav ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .main-nav ul li {
+    margin-bottom: 1rem;
+  }
+
+  .hero-banner,
+  .hero-banner-image {
+    padding: 4rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  /* Section Layout */
+  section {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* General Text Size Adjustments */
+  p, ul li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-banner,
+  .hero-banner-image {
+    padding: 3rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+}
