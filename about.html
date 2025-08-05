@@ -19,6 +19,9 @@
       padding: 2rem;
       display: flex;
       align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
     }
     .logo-left img {
       height: 100px;
@@ -32,6 +35,29 @@
     .site-title p {
       margin: 0.3rem 0 0 0;
       font-size: 1.1rem;
+    }
+    nav.main-nav {
+      background-color: #1f2937;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav.main-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav.main-nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav.main-nav ul li a:hover,
+    nav.main-nav ul li a.active {
+      text-decoration: underline;
+      color: #3b82f6;
     }
     section {
       max-width: 800px;
@@ -53,13 +79,22 @@
 
   <header>
     <div class="logo-left">
-      <img src="logo.png" alt="Channon Risk Intelligence Logo">
+      <img src="images/logo.png" alt="Channon Risk Intelligence Logo">
     </div>
     <div class="site-title">
       <h1>Channon Risk Intelligence</h1>
       <p>Online Safety and Ethical Risk Intelligence</p>
     </div>
   </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <section>
     <h2>About Channon Risk Intelligence</h2>
